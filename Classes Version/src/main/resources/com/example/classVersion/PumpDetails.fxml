@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #a6c6f5;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.classVersion.PumpDetails">
+   <children>
+      <TabPane layoutX="85.0" layoutY="176.0" prefHeight="200.0" prefWidth="429.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Pump 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="p1Tbl" layoutX="-1.0" prefHeight="171.0" prefWidth="430.0" style="-fx-background-color: #ced1ae;">
+                          <columns>
+                            <TableColumn prefWidth="120.79998779296875" text="First Name">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="fName" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn prefWidth="123.20001220703125" text="Last Name">
+                                <cellValueFactory>
+                                    <PropertyValueFactory property="lName" />
+                                </cellValueFactory>
+                            </TableColumn>
+                              <TableColumn minWidth="0.0" prefWidth="92.0" text="Vehicle No">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="vNo" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn prefWidth="94.4000244140625" text="Liters Required">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="fAmount" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Pump 2">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="p2Tbl" prefHeight="200.0" prefWidth="430.0" style="-fx-background-color: #ced1ae;">
+                           <columns>
+                              <TableColumn prefWidth="120.79998779296875" text="First Name">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="fName" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn prefWidth="123.20001220703125" text="Last Name">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="lName" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn minWidth="0.0" prefWidth="92.0" text="Vehicle No">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="vNo" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn prefWidth="94.4000244140625" text="Liters Required">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="fAmount" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Pump 3">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="p3Tbl" prefHeight="171.0" prefWidth="430.0" style="-fx-background-color: #ced1ae;">
+                           <columns>
+                              <TableColumn prefWidth="120.79998779296875" text="First Name">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="fName" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn prefWidth="123.20001220703125" text="Last Name">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="lName" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn minWidth="0.0" prefWidth="92.0" text="Vehicle No">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="vNo" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn prefWidth="94.4000244140625" text="Liters Required">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="fAmount" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Pump 4">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="p4Tbl" prefHeight="171.0" prefWidth="430.0" style="-fx-background-color: #ced1ae;">
+                           <columns>
+                              <TableColumn prefWidth="120.79998779296875" text="First Name">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="fName" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn prefWidth="123.20001220703125" text="Last Name">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="lName" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn minWidth="0.0" prefWidth="92.0" text="Vehicle No">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="vNo" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn prefWidth="94.4000244140625" text="Liters Required">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="fAmount" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Pump 5">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="p5Tbl" prefHeight="171.0" prefWidth="430.0" style="-fx-background-color: #ced1ae;">
+                           <columns>
+                              <TableColumn prefWidth="120.79998779296875" text="First Name">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="fName" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn prefWidth="123.20001220703125" text="Last Name">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="lName" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn minWidth="0.0" prefWidth="92.0" text="Vehicle No">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="vNo" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn prefWidth="94.4000244140625" text="Liters Required">
+                                  <cellValueFactory>
+                                      <PropertyValueFactory property="fAmount" />
+                                  </cellValueFactory>
+                              </TableColumn>
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Waiting List">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="p6Tbl" prefHeight="171.0" prefWidth="430.0" style="-fx-background-color: #ced1ae;">
+                           <columns>
+                              <TableColumn prefWidth="120.79998779296875" text="First Name">
+                                 <cellValueFactory>
+                                    <PropertyValueFactory property="fName" />
+                                 </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn prefWidth="123.20001220703125" text="Last Name">
+                                 <cellValueFactory>
+                                    <PropertyValueFactory property="lName" />
+                                 </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn minWidth="0.0" prefWidth="92.0" text="Vehicle No">
+                                 <cellValueFactory>
+                                    <PropertyValueFactory property="vNo" />
+                                 </cellValueFactory>
+                              </TableColumn>
+                              <TableColumn prefWidth="94.4000244140625" text="Liters Required">
+                                 <cellValueFactory>
+                                    <PropertyValueFactory property="fAmount" />
+                                 </cellValueFactory>
+                              </TableColumn>
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Label layoutX="190.0" layoutY="41.0" text="Passengers In the Pump">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font></Label>
+      <Button layoutX="282.0" layoutY="97.0" mnemonicParsing="false" onAction="#ShowBtn" style="-fx-background-color: #19571f;" text="GO" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="261.0" layoutY="130.0" text="Click GO to view !">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
